@@ -46,10 +46,10 @@ void print(node* root, int spacing){
     if(root == NULL){
         return;
     }
-    spacing += 7;
+    spacing += 5;
     print(root->right, spacing);
     cout << endl;
-    for(int i = 7; i < spacing; i++){
+    for(int i = 5; i < spacing; i++){
         cout << " ";
     }
     if(root->isRed){
